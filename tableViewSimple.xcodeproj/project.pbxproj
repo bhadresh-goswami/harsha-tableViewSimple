@@ -12,6 +12,7 @@
 		4F9ECE1522081B6900749454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9ECE1322081B6900749454 /* Main.storyboard */; };
 		4F9ECE1722081B6900749454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9ECE1622081B6900749454 /* Assets.xcassets */; };
 		4F9ECE1A22081B6900749454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9ECE1822081B6900749454 /* LaunchScreen.storyboard */; };
+		4F9ECE2322081D8000749454 /* InfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9ECE2222081D8000749454 /* InfoStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4F9ECE1622081B6900749454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9ECE1922081B6900749454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F9ECE1B22081B6900749454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9ECE2222081D8000749454 /* InfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4F9ECE0E22081B6900749454 /* tableViewSimple */ = {
 			isa = PBXGroup;
 			children = (
+				4F9ECE2122081D4A00749454 /* Models */,
 				4F9ECE0F22081B6900749454 /* AppDelegate.swift */,
 				4F9ECE1122081B6900749454 /* ViewController.swift */,
 				4F9ECE1322081B6900749454 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4F9ECE1B22081B6900749454 /* Info.plist */,
 			);
 			path = tableViewSimple;
+			sourceTree = "<group>";
+		};
+		4F9ECE2122081D4A00749454 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F9ECE2222081D8000749454 /* InfoStruct.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				4F9ECE1222081B6900749454 /* ViewController.swift in Sources */,
 				4F9ECE1022081B6900749454 /* AppDelegate.swift in Sources */,
+				4F9ECE2322081D8000749454 /* InfoStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
